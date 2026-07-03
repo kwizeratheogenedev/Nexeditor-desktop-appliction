@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 tauri = { version = "1.4", features = ["api-all"] }
+
+[package.metadata]
+backend_path = "../Nexteditor/backend/server.js"

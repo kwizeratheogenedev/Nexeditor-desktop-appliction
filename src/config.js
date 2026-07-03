@@ -1,4 +1,5 @@
-const API_BASE = 'http://127.0.0.1:3000';
+// Read API base URL from Vite env (set at build) or runtime window global (injected by Tauri runner)
+const API_BASE = import.meta.env.VITE_API_URL || (typeof window !== 'undefined' && window.__API_URL) || 'http://127.0.0.1:3000';
 
 export default API_BASE;
 
