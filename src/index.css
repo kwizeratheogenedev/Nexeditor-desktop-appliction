@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --bg-shell: #111111;
+  --bg-surface: #1a1a1a;
+}
+
+html, body, #root { height:100%; }
+body { margin:0; font-family: Inter, system-ui, Arial, Helvetica, sans-serif; background:var(--bg-shell); color:#e0e0e0 }
